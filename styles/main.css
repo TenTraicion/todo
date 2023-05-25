@@ -43,6 +43,11 @@ label {
   margin-bottom: 0.5rem;
 }
 
+a {
+  text-decoration: none;
+  color: rosybrown;
+}
+
 input {
   font: inherit;
   font-size: 1.5rem;
@@ -55,6 +60,16 @@ input {
 
 input:focus {
   background-color: rgb(243, 236, 253);
+}
+
+main {
+  padding-bottom: 145px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 #todo-management form {
@@ -97,4 +112,37 @@ input:focus {
 #todos-list button:hover,
 #todos-list button:active {
   background-color: rgb(99, 18, 136);
+}
+
+#ft {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background-color: rgb(29, 6, 56);
+  color: rgb(35, 19, 53);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ft {
+  background-color: rgb(69, 18, 136);
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+}
+
+.ft span{
+  padding: .5rem;
+  color: rosybrown;
+}
+
+.ft span:hover, .ft a:hover {
+  color: red;
+}
+
+.ft:hover, .ft a:hover {
+  background-color: rgb(99, 18, 136);
+  padding: 0.5rem 2rem;
 }

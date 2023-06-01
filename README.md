@@ -2,6 +2,6 @@
 
 A todo app created with vue.js
 
-###todo
+### todo
 
-[ ] cacth session and make the todos stay longer
+[ ] catch session and make the todos stay longer

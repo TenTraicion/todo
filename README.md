@@ -9,3 +9,4 @@ A todo app created with vue.js
 - [ ] simplifying code
 - [ ] adding new features
 - [ ] fixing bugs
+- [ ] future updates
